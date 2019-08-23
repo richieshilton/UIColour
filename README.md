@@ -28,6 +28,6 @@ This is a Swift version of [UIColor](https://developer.apple.com/documentation/u
 
 For Xcode 10.1 and below, use this package just like you would with Xcode 10.2 and above.
 
-## Installation
+## Uninstallation
 
-UIColour doesn't contain any external dependencies.
+Please don't actually use this.
