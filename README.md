@@ -1,3 +1,3 @@
 # UIColour
 
-UIColor for english speakers
+UIColor for English speakers
