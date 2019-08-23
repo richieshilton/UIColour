@@ -6,7 +6,7 @@ final class UIColourTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(UIColour().text, "Hello, World!")
+        XCTAssertEqual(UIColour.red, UIColor.red)
     }
 
     static var allTests = [

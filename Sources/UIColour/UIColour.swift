@@ -1,3 +1,3 @@
 import UIKit
 
-typealias UIColour = UIColor
+public typealias UIColour = UIColor
