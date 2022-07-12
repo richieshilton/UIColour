@@ -1,15 +1,20 @@
 import XCTest
+#if canImport(SwiftUI)
+import SwiftUI
+#endif
 @testable import UIColour
 
 final class UIColourTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
+    
+    func testMappings() {
         XCTAssertEqual(UIColour.red, UIColor.red)
+        
+        if #available(iOS 13.0, *) {
+            XCTAssertEqual(Colour.red, Color.red)
+        }
     }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testMappings", testMappings),
     ]
 }
