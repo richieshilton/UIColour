@@ -19,6 +19,16 @@ This is a Swift version of [UIColor](https://developer.apple.com/documentation/u
     let myColour: UIColour = .red
     view.backgroundColor = UIColour.blue</pre></div></td>
   </tr>
+  <tr>
+    <td>Or in SwiftUI...</td>
+  </tr>
+  <tr>
+    <td><div class="highlight highlight-source-swift"><pre>
+    let myColour: Colour = .red
+    ... sometime later ...
+    Text("Hello, colour!")
+        .foregroundColor(myColour)</pre></div></td>
+  </tr>
 </table>
 
 ## Requirements
