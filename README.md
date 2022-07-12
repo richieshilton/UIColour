@@ -3,7 +3,7 @@
 ![platforms](https://img.shields.io/badge/platforms-iOS-333333.svg) [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 
-This is a Swift version of [UIColor](https://developer.apple.com/documentation/uikit/uicolor) written in English.
+This is a Swift version of [UIColor](https://developer.apple.com/documentation/uikit/uicolor) written in English. Now compatible with SwiftUI and [Color](https://developer.apple.com/documentation/swiftui/color).
 
 ## Usage
 
